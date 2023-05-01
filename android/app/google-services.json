@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "664479865666",
+    "project_id": "razor-studios-22fb9",
+    "storage_bucket": "razor-studios-22fb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664479865666:android:09303b866fdd5a037846db",
+        "android_client_info": {
+          "package_name": "com.razorstudios.twonine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664479865666-89k5bte4fde574n3verihamqqmoem9km.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.razorstudios.twonine",
+            "certificate_hash": "5b21d535e38bada9ce5880d8f2b3d4be16620360"
+          }
+        },
+        {
+          "client_id": "664479865666-3sdm48k9pvosjdg7tau704j3qf33a6q2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTY9xMOfSPdK-xu6NnzbSZmKJm3pPTsb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664479865666-3sdm48k9pvosjdg7tau704j3qf33a6q2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
