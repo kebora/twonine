@@ -12,17 +12,18 @@ class AppSalutation extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text.rich(
       TextSpan(
-          text: 'Welcome back, ',
+          text: 'Welcome back ',
           style: const TextStyle(
             fontFamily: "Montserrat",
+            fontSize: 19,
           ),
           children: <InlineSpan>[
             TextSpan(
               text: '${googleSignInAccount.displayName},',
-              style: const TextStyle(
-                fontWeight: FontWeight.bold,
-                fontFamily: "Montserrat",
-              ),
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontFamily: "Montserrat",
+                  color: Colors.blue.shade200),
             )
           ]),
     );
