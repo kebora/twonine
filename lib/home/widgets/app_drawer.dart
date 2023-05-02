@@ -34,9 +34,22 @@ class AppDrawerView extends StatelessWidget {
               const SizedBox(
                 height: 10,
               ),
-              Text(
-                "${googleSignInAccount.displayName}",
-                style: const TextStyle(
+              IconButton(
+                onPressed: () {
+                  // Get.snackbar(
+                  //   "Hey ${googleSignInAccount.displayName}",
+                  //   "Click again to update your verification color.",
+                  //   snackPosition: SnackPosition.BOTTOM,
+                  // );
+                },
+                icon: Icon(
+                  Icons.verified,
+                  color: Colors.blue.shade200,
+                ),
+              ),
+              const Text(
+                "Counselor",
+                style: TextStyle(
                   fontFamily: "Montserrat",
                   fontWeight: FontWeight.w800,
                 ),
@@ -67,7 +80,7 @@ class AppDrawerView extends StatelessWidget {
                   color: Colors.blue.shade200,
                 ),
                 title: Text(
-                  "Verified Counsellors",
+                  "Verified Counselors",
                   style: textStyle,
                 ),
               ),
