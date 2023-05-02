@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:twonine/authentication/authentication.dart';
 import 'package:twonine/constants.dart';
+import 'package:twonine/home/change_account_view.dart';
 
 class AppDrawerView extends StatelessWidget {
   const AppDrawerView({
@@ -58,7 +59,12 @@ class AppDrawerView extends StatelessWidget {
                 height: 10,
               ),
               ListTile(
-                onTap: () {},
+                onTap: () {
+                  Get.to(
+                    () => const ChangeAccountView(),
+                    transition: Transition.native,
+                  );
+                },
                 leading: const Icon(Icons.account_circle),
                 title: Text(
                   "Change account",
